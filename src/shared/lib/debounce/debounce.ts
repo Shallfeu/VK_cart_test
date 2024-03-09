@@ -6,6 +6,7 @@ export const debounce = <F extends (...args: never[]) => never>(func: (name: str
             clearTimeout(timeout);
             timeout = null;
         }
+        // @ts-ignore
         timeout = setTimeout(() => func(...args), waitFor);
     };
 
