@@ -1,5 +1,6 @@
 import { classNames } from '@/shared/lib/classNames/classNames';
 import cls from './TheLoader.module.scss';
+import {Spinner} from "@vkontakte/vkui";
 
 interface LoaderProps {
     className?: string;
@@ -7,9 +8,6 @@ interface LoaderProps {
 
 export const TheLoader = ({ className }: LoaderProps) => (
     <div className={classNames(cls['lds-ellipsis'], {}, [className])}>
-        <div />
-        <div />
-        <div />
-        <div />
+        <Spinner size="large" />
     </div>
 );

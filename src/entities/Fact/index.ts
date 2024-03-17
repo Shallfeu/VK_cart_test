@@ -1,1 +1,0 @@
-export {FactCard} from "./ui/FactCard/FactCard";

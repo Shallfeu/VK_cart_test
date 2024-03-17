@@ -1,1 +1,0 @@
-export { GetYourAgeFormAsync as GetYourAgeForm } from './ui/GetYourAgeForm.async';

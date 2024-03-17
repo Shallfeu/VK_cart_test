@@ -1,0 +1,27 @@
+.card {
+  width: 100%;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  padding: 20px;
+  background: white;
+  box-shadow: rgba(0, 0, 0, 0.24) 0 3px 8px;
+
+  &__info {
+    height: 100%;
+  }
+
+  &__price {
+    font-size: 22px;
+  }
+
+  &__actions {
+    margin-left: auto;
+    width: 250px;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
